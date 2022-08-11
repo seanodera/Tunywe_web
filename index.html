@@ -1,0 +1,1115 @@
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS --> 
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Owl Theme Default CSS --> 
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Owl Carousel CSS --> 
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Animate CSS --> 
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!-- Flaticon CSS --> 
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- Font Awesome CSS --> 
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- Nice Select CSS --> 
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+        <!-- Magnific Popup CSS --> 
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css">
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+		<script src="https://unpkg.com/vuex"></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+		
+		<!-- Favicon -->
+				<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+				<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- TITLE -->
+        <title>Tunywe - Liquor Store</title>
+    </head>
+
+    <body>
+		<!-- Start Preloader Area -->
+		<div class="preloader">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Navbar Area -->
+		<div class="navbar-area">
+			<!-- Menu For Mobile Device -->
+			<div class="mobile-nav">
+				<a href="index.html" class="logo">
+					<img src="assets/img/tunywelogo.png" alt="Logo" />
+				</a>
+			</div>
+
+			<!-- Menu For Desktop Device -->
+			<div class="main-nav giano-nav-two">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img src="assets/img/tunywelogo.png" alt="Logo" />
+						</a>
+
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="index.html" class="nav-link">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="shop.html" class="nav-link">Shop</a>
+								</li>
+								<li class="nav-item">
+									<a href="about.html" class="nav-link">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a href="contact.html" class="nav-link">Contact</a>
+								</li>
+								<li class="nav-item contact-number">
+									<a href="tel:+254-789-417" class="nav-link">
+										<i class="fa fa-phone"></i> 
+										+254-789-417
+									</a>
+								</li>
+								<li class="nav-item contact-number">
+									<a href="cart.html" class="nav-link">
+										<i class="fa fa-cart-plus"></i> 
+										Cart
+									</a>
+								</li>
+								<li class="nav-item sidbar-menu">
+									<a href="#" data-toggle="modal" data-target="#myModal2" class="nav-link">
+										<i class="flaticon-menu"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- End Navbar Area -->
+
+		<!-- Start Sidebar Modal -->
+		<div class="sidebar-modal">  
+			<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">
+									<i class="fa fa-times"></i>
+								</span>
+							</button>
+							<h2 class="modal-title" id="myModalLabel2">
+								<a href="index.html">
+									<img src="assets/img/tunywelogo.png" alt="Logo" />
+								</a>
+							</h2>
+						</div>
+						<div class="modal-body">
+							<div class="sidebar-modal-widget">
+								<h3 class="title">Contact Info</h3>
+								<ul class="contact-info">
+									<li>
+										<i class="fa fa-map-marker"></i>
+										Address
+										<span>No. 3, Chaka Court, Argwings Kodhek Road, Nairobi</span>
+									</li>
+									<li>
+										<i class="fa fa-phone"></i>
+										Email
+										<span>support@tunywedrinks.com</span>
+									</li>
+									<li>
+										<i class="fa fa-envelope"></i>
+										Phone
+										<span>+25462755, 265497466</span>
+									</li>
+								</ul>
+							</div>
+							<div class="sidebar-modal-widget">
+								<h3 class="title">Connect With Us</h3>
+								<ul class="social-list">
+									<li>
+										<a href="https://www.facebook.com/105985017879313">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/tunywedrinks">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar Modal -->
+		
+		<!-- Start Main Slider Area -->
+        <section class="slider-area">
+            <div class="main-slider owl-carousel owl-theme">
+                <div class="main-slider-item slider-item-bg-1">
+                    <div class="d-table"> 
+                        <div class="d-table-cell"> 
+							<div class="container">
+								<div class="slider-text">
+									<span>Tunywe</span>
+									<h1>Only the best</h1>
+									<p>We have the best liquors available and at affordable prices too</p>
+									<a class="default-btn" href="shop.html">Shop Now</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider-item slider-item-bg-2">
+                    <div class="d-table"> 
+                        <div class="d-table-cell"> 
+							<div class="container">
+								<div class="slider-text">
+									<span>Delightful</span>
+									<h1>Stay Cool</h1>
+									<p>Keep being frosty with our specially curated range of alcohols and beers.</p>
+									<a class="default-btn" href="shop.html">Shop Now</a>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+			</div> 
+			<div class="container">
+				<div class="support-wrap">
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="single-support">
+								<i class="flaticon-customer-service"></i>
+								<div class="support-text">
+									<h3>Support 24/7</h3>
+									<p>We are available to provide services you need all the time.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-support active">
+								<i class="flaticon-guarantee"></i>
+								<div class="support-text">
+									<h3>Guaranteed Value</h3>
+									<p>We make sure you get the best value for your money.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+							<div class="single-support">
+								<i class="flaticon-time-left"></i>
+								<div class="support-text">
+									<h3>Delivery Services</h3>
+									<p>We deliver to wherever you are at your convenience.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </section>
+		<!-- End Main Slider Area -->
+
+		<!-- Start Since Area -->
+		<!-- <section class="since-area ptb-100">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="since-img">
+							<img src="assets/img/home-two/since-img.png" alt="Welcome">
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="since-text">
+							<span>Since 1903</span>
+							<h2>Wine Bussiness - One Name. One Legend.</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+							<ul class="since-list">
+								<li>
+									<i class="fa fa-angle-double-right"></i>
+									More Than 20 Years of Experience
+								</li>
+								<li>
+									<i class="fa fa-angle-double-right"></i>
+									High Quality Products
+								</li>
+								<li>
+									<i class="fa fa-angle-double-right"></i>
+									Delivery support
+								</li>
+								<li>
+									<i class="fa fa-angle-double-right"></i>
+									Quick Response
+								</li>
+							</ul>
+							<a class="default-btn" href="about.html">
+								Read More
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End Since Area -->
+
+		<!-- Start Our Offer Area -->
+		<!-- <section class="our-offer-area">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="section-title">
+						<span>Our Offer</span>
+						<h2>What We Make For You</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 p-0">
+						<div class="offer-img">
+							<img src="assets/img/home-two/our-offer/1.jpg" alt="">
+							<div class="offer-caption">
+								<span>On-time Offer</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-9">
+						<div class="row">
+							<div class="col-lg-4 col-sm-6 col-md-4 p-0">
+								<div class="offer-img">
+									<img src="assets/img/home-two/our-offer/2.jpg" alt="">
+									<div class="offer-caption">
+										<span>Seasonal Offer</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 col-md-4 p-0">
+								<div class="offer-img">
+									<img src="assets/img/home-two/our-offer/3.jpg" alt="">
+									<div class="offer-caption">
+										<span>An Exclusive Offer</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 col-md-4 p-0">
+								<div class="offer-img">
+									<img src="assets/img/home-two/our-offer/4.jpg" alt="">
+									<div class="offer-caption">
+										<span>On-time Offer</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 col-md-4 p-0">
+								<div class="offer-img">
+									<img src="assets/img/home-two/our-offer/5.jpg" alt="">
+									<div class="offer-caption">
+										<span>On-time Offer</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 col-md-4 p-0">
+								<div class="offer-img">
+									<img src="assets/img/home-two/our-offer/6.jpg" alt="">
+									<div class="offer-caption">
+										<span>On-time Offer</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-4 col-sm-6 col-md-4 p-0">
+								<div class="offer-img">
+									<img src="assets/img/home-two/our-offer/7.jpg" alt="">
+									<div class="offer-caption">
+										<span>Special offer</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End Our Offer Area -->
+
+		<!-- Start Discover Area -->
+		<section class="discover-area ptb-100-70">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<span>Discover</span>
+						<h2>Our services</h2>
+						<p>We will deliver alcoholic and non-alcoholic beverages to our cherished customers at a fair price.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 p-0">
+						<div class="row">
+							<div class="col-lg-12 col-md-6">
+								<div class="single-discover single-discovers">
+									<i class="flaticon-grapes"></i>
+									<h3>Specially Curated Products</h3>
+									<p>We have carefully selected the best drinks available for our customers.</p>
+								</div>
+							</div>
+							<div class="col-lg-12 col-md-6">
+								<div class="single-discover single-discovers">
+									<i class="flaticon-crushing"></i>
+									<h3>Superb Customer Service</h3>
+									<p>We are always available to help you with all your queries.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="discover-img">
+							<img src="assets/img/home-one/discover.jpg" alt="Discover">
+						</div>
+					</div>
+					<div class="col-lg-4 p-0">
+						<div class="discover-wrap">
+							<div class="row">
+								<div class="col-lg-12 col-md-6">
+									<div class="single-discover single-discovers">
+										<i class="flaticon-barrel"></i>
+										<h3>Amazing Online Experience</h3>
+										<p>Make orders from the comfort of your home.</p>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-6">
+									<div class="single-discover single-discovers">
+										<i class="flaticon-time-left"></i>
+										<h3>Super Timely Delivery</h3>
+										<p>Wherever you are, our riders will make sure you get your order in time.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Discover Area -->
+
+		<!-- Start Our Product Area -->
+		<section class="our-product-area ptb-100">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="section-title">
+						<span>Our Product</span>
+						<h2>Featured Collections</h2>
+						<p>Our best and specially curated products for your indoor and outdoor events.</p>
+					</div>
+				</div>
+				<div class="product-wrap product-wraps owl-carousel owl-theme">
+					<div class="single-product">
+						<div class="product-img">
+							<img src="https://firebasestorage.googleapis.com/v0/b/delivery-systems.appspot.com/o/alcohol%2FLuc%20Belaire%20Rose?alt=media&token=24431472-24bb-4348-8578-d90c7f98f90f" alt="Product">
+						</div>
+						<div class="product-details">
+							<!-- <a href="#">Shop Now</a> -->
+							<h3>Luc Belaire Rosé</h3>
+							<ul>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+							</ul>
+							<span>KES 4150</span>
+						</div>
+					</div>
+					<div class="single-product">
+						<div class="product-img">
+							<img src="https://firebasestorage.googleapis.com/v0/b/delivery-systems.appspot.com/o/alcohol%2FLuc%20Belaire%20Lux?alt=media&token=c7df3b50-846c-41e5-8f20-3ed0814fd751" alt="Product">
+						</div>
+						<div class="product-details">
+							<!-- <a href="#">Shop Now</a> -->
+							<h3>Luc Belaire Luxe</h3>
+							<ul>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+							</ul>
+							<span>KES 4150</span>
+						</div>
+					</div>
+					<div class="single-product">
+						<div class="product-img">
+							<img src="https://firebasestorage.googleapis.com/v0/b/delivery-systems.appspot.com/o/alcohol%2FHennesy%20V.S?alt=media&token=5676ff87-b0fc-4c3c-ab1c-7ebd4fc9f745" alt="Product">
+						</div>
+						<div class="product-details">
+							<!-- <a href="#">Shop Now</a> -->
+							<h3>Hennesy V.S</h3>
+							<ul>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+							</ul>
+							<span>KES 4600</span>
+						</div>
+					</div>
+					<div class="single-product">
+						<div class="product-img">
+							<img src="https://firebasestorage.googleapis.com/v0/b/delivery-systems.appspot.com/o/alcohol%2FLuc%20Belaire%20Gold?alt=media&token=814e212e-3160-465a-9cfc-727f7bc03ba0" alt="Product">
+						</div>
+						<div class="product-details">
+							<!-- <a href="#">Shop Now</a> -->
+							<h3>Luc Belaire Gold</h3>
+							<ul>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+							</ul>
+							<span>KES 4150</span>
+						</div>
+					</div>
+					<div class="single-product">
+						<div class="product-img">
+							<img src="https://firebasestorage.googleapis.com/v0/b/delivery-systems.appspot.com/o/alcohol%2FLuc%20Belaire%20Luxe%20Ros%C3%A9?alt=media&token=db548ed8-52fd-4ed5-b47e-912538ff7906" alt="Product">
+						</div>
+						<div class="product-details">
+							<!-- <a href="#">Shop Now</a> -->
+							<h3>Luc Belaire Luxe Rosé</h3>
+							<ul>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+							</ul>
+							<span>KES 4150</span>
+						</div>
+					</div>
+					<div class="single-product">
+						<div class="product-img">
+							<img src="https://firebasestorage.googleapis.com/v0/b/delivery-systems.appspot.com/o/alcohol%2FJack%20daniels?alt=media&token=e11fdfdb-8ecf-4316-a8cd-63abf6d97003" alt="Product">
+						</div>
+						<div class="product-details">
+							<!-- <a href="#">Shop Now</a> -->
+							<h3>Jack Daniels</h3>
+							<ul>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+								<li>
+									<i class="fa fa-star"></i>
+								</li>
+							</ul>
+							<span>KES 3050</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Our Product Area -->
+
+		<!-- Start The Events Area -->
+		<!-- <section class="the-events-area ptb-100-70">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-lg-6">
+						<div class="row">
+							<div class="col-lg-6 col-sm-6">
+								<div class="single-events">
+									<img src="assets/img/home-two/events/1.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6">
+								<div class="single-events events-change">
+									<img src="assets/img/home-two/events/2.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6">
+								<div class="single-events events-changes">
+									<img src="assets/img/home-two/events/3.jpg" alt="">
+								</div>
+							</div>
+							<div class="col-lg-6 col-sm-6">
+								<div class="single-events">
+									<img src="assets/img/home-two/events/4.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="section-title">
+							<span>The Events</span>
+							<h2>Weedding & Private Events</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  do eiusmod tempor incididunt ut labore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risu viver maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit,  do eiusmod tempor incididunt ut labore magna aliqua.</p>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  do eiusmod tempor incididunt ut labore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risu viver maecenas accumsan.</p>
+							<a class="default-btn" href="#">Event Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End The Events Area -->
+
+		<!-- Start Our Products Area -->
+		<!-- <section class="our-products-area ptb-100">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<span>Our Products</span>
+						<h2>Deal of The Week</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="products-img">
+							<img src="assets/img/home-two/products.png" alt="Products">
+						</div>
+						<div id="timer">
+							<div class="timer">
+								<img src="assets/img/shape/service-shape-2.png" alt="">
+								<div class="timer-shape">
+									<div class="time-cap" id="days"></div>
+								</div>
+							</div>
+							<div class="timer">
+								<img src="assets/img/shape/service-shape-2.png" alt="">
+								<div class="timer-shape">
+									<div class="time-cap" id="hours"></div>
+								</div>
+							</div>
+							<div class="timer">
+								<img src="assets/img/shape/service-shape-2.png" alt="">
+								<div class="timer-shape">
+									<div class="time-cap" id="minutes"></div>
+								</div>
+							</div>
+							<div class="timer">
+								<img src="assets/img/shape/service-shape-2.png" alt="">
+								<div class="timer-shape">
+									<div class="time-cap" id="seconds"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="products-details">
+							<h3>Buy More Save More</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+							<span>$49.99</span>
+							<a href="shop-details.html">
+								Buy Now
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End Our Products Area -->
+
+		<!-- Start Testimonial Area -->
+		<section class="testimonials-area ptb-100-70">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<span>Testimonial</span>
+						<h2>What Clients Say</h2>
+						<p>Don't just take our word for it, hear what some of our cherished customers have to say.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="testimonial-wrapper owl-carousel owl-theme">
+						<div class="singel-testimonial">
+							<div class="testimonial-img">
+								<img src="assets/img/home-one/testimonial/1.jpg" alt="Testimonial">
+							</div>
+							<div class="testimonial-text">
+								<h3>John Addison</h3>
+								<span>Designer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  labore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<div class="queat">
+									<i class="flaticon-right-quotation-1"></i>
+								</div>
+							</div>
+						</div>
+						<div class="singel-testimonial">
+							<div class="testimonial-img">
+								<img src="assets/img/home-one/testimonial/2.jpg" alt="Testimonial">
+							</div>
+							<div class="testimonial-text">
+								<h3>Jon Meair</h3>
+								<span>Businessman</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  labore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<div class="queat">
+									<i class="flaticon-right-quotation-1"></i>
+								</div>
+							</div>
+						</div>
+						<div class="singel-testimonial">
+							<div class="testimonial-img">
+								<img src="assets/img/home-one/testimonial/1.jpg" alt="Testimonial">
+							</div>
+							<div class="testimonial-text">
+								<h3>John Addison</h3>
+								<span>Designer</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  labore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<div class="queat">
+									<i class="flaticon-right-quotation-1"></i>
+								</div>
+							</div>
+						</div>
+						<div class="singel-testimonial">
+							<div class="testimonial-img">
+								<img src="assets/img/home-one/testimonial/2.jpg" alt="Testimonial">
+							</div>
+							<div class="testimonial-text">
+								<h3>Jon Meair</h3>
+								<span>Businessman</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt  labore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<div class="queat">
+									<i class="flaticon-right-quotation-1"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonial Area -->
+
+		<!-- Start Blog Area -->
+		<!-- <section class="blog-area">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<span>Vineyard</span>
+						<h2>Blog Wines</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div class="single-blog">
+							<div class="row align-items-center">
+								<div class="col-lg-12 col-xl-6 pr-0">
+									<div class="blog-img">
+										<a href="blog-details.html">
+											<img src="assets/img/home-one/blog/1.jpg" alt="Blog">
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-12 col-xl-6 pl-0">
+									<div class="blog-text">
+										<span>
+											<i class="fa fa-calendar"></i>
+											07 April 2019
+										</span>
+										<h3>
+											<a href="blog-details.html">The Recipe from a Winemaker’s Restaurent</a>
+										</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+										<a class="read-more" href="blog-details.html">
+											Continue
+											<i class="flaticon-right-arrow"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="single-blog">
+							<div class="row align-items-center">
+								<div class="col-lg-12 col-xl-6 pr-0">
+									<div class="blog-img">
+										<a href="blog-details.html">
+											<img src="assets/img/home-one/blog/2.jpg" alt="Blog">
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-12 col-xl-6 pl-0">
+									<div class="blog-text">
+										<span>
+											<i class="fa fa-calendar"></i>
+											07 May 2019
+										</span>
+										<h3>
+											<a href="blog-details.html">The Different taste of Wines Collection</a>
+										</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+										<a class="read-more" href="blog-details.html">
+											Continue
+											<i class="flaticon-right-arrow"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="single-blog">
+							<div class="row align-items-center">
+								<div class="col-lg-12 col-xl-6 pr-0">
+									<div class="blog-img">
+										<a href="blog-details.html">
+											<img src="assets/img/home-one/blog/3.jpg" alt="Blog">
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-12 col-xl-6 pl-0">
+									<div class="blog-text">
+										<span>
+											<i class="fa fa-calendar"></i>
+											07 jun 2019
+										</span>
+										<h3>
+											<a href="blog-details.html">Bruce Neyar of  Neyars Vineyard Collection</a>
+										</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+										<a class="read-more" href="blog-details.html">
+											Continue
+											<i class="flaticon-right-arrow"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6">
+						<div class="single-blog">
+							<div class="row align-items-center">
+								<div class="col-lg-12 col-xl-6 pr-0">
+									<div class="blog-img">
+										<a href="blog-details.html">
+											<img src="assets/img/home-one/blog/4.jpg" alt="Blog">
+										</a>	
+									</div>
+								</div>
+								<div class="col-lg-12 col-xl-6 pl-0">
+									<div class="blog-text">
+										<span>
+											<i class="fa fa-calendar"></i>
+											07 July 2019
+										</span>
+										<h3>
+											<a href="blog-details.html">William Shatner’s New Wine Enterprise</a>
+										</h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+										<a class="read-more" href="blog-details.html">
+											Continue
+											<i class="flaticon-right-arrow"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End Blog Area -->
+
+		<!-- Start Start Subscribe area -->
+		<!-- <div class="subscribe-area">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<h2>Subscribe To Newsletter</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 offset-md-3">
+						<div class="widget subscribe">
+							<form class="search-form">
+								<label>
+									<input type="search" class="search-field" placeholder="Enter your email address">
+								</label>
+								<input type="submit" class="search-submit default-btn" value="Sbuscribe">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- Start End Subscribe area -->
+
+		<!-- Start Partner Logo area -->
+    <!--     <div class="partner-area ptb-100">
+			<div class="container">
+				<div class="partner-weap owl-carousel owl-theme">
+					<div class="single-logo">
+						<img src="assets/img/home-one/partner-logo/1.png" alt="Logo">
+					</div>
+					<div class="single-logo">
+						<img src="assets/img/home-one/partner-logo/2.png" alt="Logo">
+					</div>
+					<div class="single-logo">
+						<img src="assets/img/home-one/partner-logo/4.png" alt="Logo">
+					</div>
+					<div class="single-logo">
+						<img src="assets/img/home-one/partner-logo/5.png" alt="Logo">
+					</div>
+					<div class="single-logo">
+						<img src="assets/img/home-one/partner-logo/6.png" alt="Logo">
+					</div>
+				</div>
+			</div>
+		</div> -->
+		<!-- Start End Partner Logo area -->
+
+		<!-- Start Footer Top Area -->
+		<footer class="footer-top-area pt-100">
+			<div class="container">
+				<div class="row footer-wrapper">
+					<div class="col-lg-4 col-sm-6 col-md-6">
+						<div class="single-widget">
+							<a class="brand" href="#">
+								<img src="assets/img/tunywelogo.png" alt="Logo" />
+							</a> 
+							<p>Tunywe is an online based company focused on offering superb customer service and delivery of premium beverages within the Nairobi County.</p> 
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6 col-md-6">
+						<div class="single-widget single-widgets">
+							<h3>Inventory</h3>
+							<ul>
+								<li>
+									<a href="shop.html">Shop</a> 
+								</li>
+								<li>
+									<a href="cart.html">Cart</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6">
+						<div class="single-widget single-widgetss">
+							<h3>Quick Link</h3>
+							<ul>
+								<li>
+									<a href="about.html">About Us</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6">
+						<div class="single-widget">
+							<h3>Address</h3>
+							<ul>
+								<li class="address">
+									<i class="fa fa-map-marker"></i>
+									No. 3, Chaka Court, Argwings Kodhek Road, Nairobi
+								</li>
+								<li class="address">
+									<i class="fa fa-phone"></i>
+									<a href="tel:+25462755">+25462755, 265497466</a>
+								</li>
+								<li class="address">
+									<i class="fa fa-envelope"></i>
+									<a href="mailto:support@tunywedrinks.com">support@tunywedrinks.com</a>
+								</li>
+							</ul>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container footer-bottom">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div>
+							<p>Copyright © Tunywe. All Rights Reserved</p>
+						</div>
+					</div>
+					<!-- <div class="col-lg-6 col-md-6">
+						<ul class="terms-conditions">
+							<li><a href="#">Terms & Conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Top Area -->
+       
+		<!-- Start Go Top Area -->
+		<div class="go-top">
+			<i class="fa fa-angle-double-up"></i>
+			<i class="fa fa-angle-double-up"></i>
+		</div>
+		<!-- End Go Top Area -->
+
+        
+        <!-- Jquery Slim JS -->
+        <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+		<script src="assets/js/jquery.meanmenu.js"></script>
+		<!-- Nice Select JS -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- Wow JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Owl Carousel JS -->
+		<script src="assets/js/owl.carousel.js"></script>
+        <!-- Magnific-Popup JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Custom JS -->
+				<script src="assets/js/custom.js"></script>
+    </body>
+</html>

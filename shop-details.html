@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <!-- Bootstrap CSS --> 
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Owl Theme Default CSS --> 
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Owl Carousel CSS --> 
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Animate CSS --> 
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!-- Flaticon CSS --> 
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- Font Awesome CSS --> 
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- Nice Select CSS --> 
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+        <!-- Magnific Popup CSS --> 
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css">
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+		<script src="https://unpkg.com/vuex"></script>
+		
+		<!-- Favicon -->
+				<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+				<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- TITLE -->
+        <title>Tunywe - Liquor Store</title>
+    </head>
+
+    <body>
+		<!-- Start Preloader Area -->
+		<div class="preloader">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Navbar Area -->
+		<div class="navbar-area fixed-top">
+			<!-- Menu For Mobile Device -->
+			<div class="mobile-nav">
+				<a href="index.html" class="logo">
+					<img src="assets/img/tunywelogo.png" alt="Giano Logo">
+				</a>
+			</div>
+
+			<!-- Menu For Desktop Device -->
+			<div class="main-nav giano-nav-two">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img src="assets/img/tunywelogo.png" alt="Giano Logo">
+						</a>
+
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="index.html" class="nav-link">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="shop.html" class="nav-link">Shop</a>
+								</li>
+								<li class="nav-item">
+									<a href="about.html" class="nav-link">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a href="contact.html" class="nav-link">Contact</a>
+								</li>
+								<li class="nav-item contact-number">
+									<a href="tel:+254-789-417" class="nav-link">
+										<i class="fa fa-phone"></i> 
+										+254-789-417
+									</a>
+								</li>
+								<li class="nav-item contact-number">
+									<a href="cart.html" class="nav-link">
+										<i class="fa fa-cart-plus"></i> 
+										Cart
+									</a>
+								</li>
+								<li class="nav-item sidbar-menu">
+									<a href="#" data-toggle="modal" data-target="#myModal2" class="nav-link">
+										<i class="flaticon-menu"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- End Navbar Area -->
+
+		<!-- Start Sidebar Modal -->
+		<div class="sidebar-modal">  
+			<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">
+									<i class="fa fa-times"></i>
+								</span>
+							</button>
+							<h2 class="modal-title" id="myModalLabel2">
+								<a href="index.html">
+									<img src="assets/img/tunywelogo.png" alt="Logo">
+								</a>
+							</h2>
+						</div>
+						<div class="modal-body">
+							<div class="sidebar-modal-widget">
+								<h3 class="title">Contact Info</h3>
+								<ul class="contact-info">
+									<li>
+										<i class="fa fa-map-marker"></i>
+										Address
+										<span>No. 3, Chaka Court, Argwings Kodhek Road, Nairobi</span>
+									</li>
+									<li>
+										<i class="fa fa-phone"></i>
+										Email
+										<span>support@tunywedrinks.com</span>
+									</li>
+									<li>
+										<i class="fa fa-envelope"></i>
+										Phone
+										<span>+25462755, 265497466</span>
+									</li>
+								</ul>
+							</div>
+							<div class="sidebar-modal-widget">
+								<h3 class="title">Connect With Us</h3>
+								<ul class="social-list">
+									<li>
+										<a href="https://www.facebook.com/105985017879313">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/tunywedrinks">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar Modal -->
+
+		<!-- Start Page Title Area -->
+		<div class="page-title-area item-bg-3">
+			<div class="container">
+				<div class="page-title-content">
+					<h2>Shop Details</h2>
+					<ul>
+						<li>
+							<a href="index.html">
+								Home 
+								<i class="fa fa-chevron-right"></i>
+							</a>
+						</li>
+						<li>Details</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Title Area -->
+		
+		<!-- Start Product Details Area -->
+        <section class="product-details-area ptb-100">
+			<div class="container" id="vapp">
+				<div class="row align-items-center">
+					<div class="col-lg-6 col-md-12">
+						<div class="product-details-image">
+							<img :src="results.image" alt="image">
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-12">
+						<div class="product-details-desc">
+							<h3>{{ results.name }}</h3>
+
+							<div class="price">
+								<span class="new-price">KES {{ results.price }}</span>
+								<!-- <span class="old-price">$20.00</span> -->
+							</div>
+
+							<div class="product-review">
+								<div class="rating">
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+									<i class="fa fa-star"></i>
+								</div>
+								<!-- <a href="#" class="rating-count">3 reviews</a> -->
+							</div>
+
+							<p>{{ results.description }}</p>
+
+							<div class="product-add-to-cart">
+								<div class="input-counter">
+									<span class="minus-btn">
+										<i class="fa fa-minus"></i>
+									</span>
+									<input type="text" min="1" value="1" id="itemNo" />
+									<span class="plus-btn">
+										<i class="fa fa-plus"></i>
+									</span>
+								</div>
+
+								<!-- <button v-if="added === true" type="submit" class="default-btn" disabled>
+									<i class="fa fa-cart-plus"></i> 
+									Added
+								</button>
+								<button v-else type="submit" class="default-btn" @click="addToCart(results.id)">
+									<i class="fa fa-cart-plus"></i> 
+									Add to Cart
+								</button> -->
+								<add-button 
+									:id="results.id" 
+									:name="results.name" 
+									:category="results.category" 
+									:description="results.description" 
+									:image="results.image" 
+									:price="results.price" 
+									:added="added">
+								</add-button>
+							</div>
+
+							<!-- <div class="buy-checkbox-btn">
+								<div class="item">
+									<input class="inp-cbx" id="cbx" type="checkbox">
+									<label class="cbx" for="cbx">
+										<span>
+											<svg width="12px" height="10px" viewbox="0 0 12 10">
+												<polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+											</svg>
+										</span>
+										<span>Terms and conditions apply</span>
+									</label>
+								</div>
+
+								<div class="item">
+									<a href="#" class="default-btn">Buy it now!</a>
+								</div>
+							</div> -->
+
+							<!-- <div class="custom-payment-options">
+								<span>Guaranteed safe checkout:</span>
+
+								<div class="payment-methods">
+									<a href="#">
+										<img src="assets/img/product-details/payment/1.svg" alt="image">
+									</a>
+									<a href="#">
+										<img src="assets/img/product-details/payment/2.svg" alt="image">
+									</a>
+									<a href="#">
+										<img src="assets/img/product-details/payment/3.svg" alt="image">
+									</a>
+									<a href="#">
+										<img src="assets/img/product-details/payment/4.svg" alt="image">
+									</a>
+									<a href="#">
+										<img src="assets/img/product-details/payment/5.svg" alt="image">
+									</a>
+									<a href="#">
+										<img src="assets/img/product-details/payment/6.svg" alt="image">
+									</a>
+									<a href="#">
+										<img src="assets/img/product-details/payment/7.svg" alt="image">
+									</a>
+								</div>
+							</div> -->
+						</div>
+					</div>
+
+					<!-- <div class="col-lg-12 col-md-12">
+						<div class="tab products-details-tab">
+							<div class="row">
+								<div class="col-lg-12 col-md-12">
+									<ul class="tabs">
+										<li><a href="#">
+											<div class="dot"></div> Description
+										</a></li>
+										
+										<li><a href="#">
+											<div class="dot"></div> Additional information
+										</a></li>
+
+										<li><a href="#">
+											<div class="dot"></div> Reviews
+										</a></li>
+									</ul>
+								</div>
+
+								<div class="col-lg-12 col-md-12">
+									<div class="tab_content">
+										<div class="tabs_item">
+											<div class="products-details-tab-content">
+												<p>Design inspiration lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum.  Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum. Nulla libero. Vivamus pharetra posuere sapien.</p>
+											</div>
+										</div>
+
+										<div class="tabs_item">
+											<div class="products-details-tab-content">
+												<ul class="additional-information">
+													<li><span>Brand:</span> ThemeForest</li>
+													<li><span>Color:</span> Brown</li>
+													<li><span>Size:</span> Large, Medium</li>
+													<li><span>Weight:</span> 27 kg</li>
+													<li><span>Dimensions:</span> 16 x 22 x 123 cm</li>
+												</ul>
+											</div>
+										</div>
+
+										<div class="tabs_item">
+											<div class="products-details-tab-content">
+												<div class="product-review-form">
+													<h3>Customer Reviews</h3>
+
+													<div class="review-title">
+														<div class="rating">
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+															<i class="fa fa-star"></i>
+														</div>
+														<p>Based on 3 reviews</p>
+
+														<a href="#" class="btn default-btn">Write a Review</a>
+													</div>
+
+													<div class="review-comments">
+														<div class="review-item">
+															<div class="rating">
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+															</div>
+															<h3>Good</h3>
+															<span><strong>Admin</strong> on <strong>Sep 21, 2019</strong></span>
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+															<a href="#" class="review-report-link">Report as Inappropriate</a>
+														</div>
+
+														<div class="review-item">
+															<div class="rating">
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+															</div>
+															<h3>Good</h3>
+															<span><strong>Admin</strong> on <strong>Sep 21, 2019</strong></span>
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+															<a href="#" class="review-report-link">Report as Inappropriate</a>
+														</div>
+
+														<div class="review-item">
+															<div class="rating">
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+															</div>
+															<h3>Good</h3>
+															<span><strong>Admin</strong> on <strong>Sep 21, 2019</strong></span>
+															<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+
+															<a href="#" class="review-report-link">Report as Inappropriate</a>
+														</div>
+													</div>
+
+													<div class="review-form">
+														<h3>Write a Review</h3>
+
+														<form>
+															<div class="row">
+																<div class="col-lg-6 col-md-6">
+																	<div class="form-group">
+																		<label>Name</label>
+																		<input type="text" id="name" name="name" placeholder="Enter your name" class="form-control">
+																	</div>
+																</div>
+
+																<div class="col-lg-6 col-md-6">
+																	<div class="form-group">
+																		<label>Email</label>
+																		<input type="email" id="email" name="email" placeholder="Enter your email" class="form-control">
+																	</div>
+																</div>
+
+																<div class="col-lg-12 col-md-12">
+																	<div class="form-group">
+																		<label>Review Title</label>
+																		<input type="text" id="review-title" name="review-title" placeholder="Enter your review a title" class="form-control">
+																	</div>
+																</div>
+
+																<div class="col-lg-12 col-md-12">
+																	<div class="form-group">
+																		<label>Body of Review (1500)</label>
+																		<textarea name="review-body" id="review-body" cols="30" rows="3" placeholder="Write your comments here" class="form-control"></textarea>
+																	</div>
+																</div>
+
+																<div class="col-lg-12 col-md-12">
+																	<button type="submit" class="btn default-btn">Submit Review</button>
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<!-- End Product Details Area -->
+
+		<!-- Start Our Product Area -->
+		<!-- <section class="our-products-area ptb-100-70">
+			<div class="container">
+				<div class="row">
+					<div class="section-title">
+						<span>Our Product</span>
+						<h2>Related Products</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-6 col-md-6">
+						<div class="single-product single-products">
+							<div class="product-img">
+								<img src="assets/img/shop/1.png" alt="Product">
+							</div>
+							<div class="product-details">
+								<a href="#">Shop Now</a>
+								<h3>Burgundy</h3>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<span>$229.50</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 col-md-6">
+						<div class="single-product single-products">
+							<div class="product-img">
+								<img src="assets/img/shop/2.png" alt="Product">
+							</div>
+							<div class="product-details">
+								<a href="#">Shop Now</a>
+								<h3>Red Wine</h3>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<span>$299.70</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 col-md-6 offset-sm-3 offset-lg-0">
+						<div class="single-product single-products">
+							<div class="product-img">
+								<img src="assets/img/shop/3.png" alt="Product">
+							</div>
+							<div class="product-details">
+								<a href="#">Shop Now</a>
+								<h3>Goose Berry</h3>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<span>$299.70</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- End Our Product Area -->
+
+		<!-- Start Footer Top Area -->
+		<footer class="footer-top-area pt-100">
+			<div class="container">
+				<div class="row footer-wrapper">
+					<div class="col-lg-4 col-sm-6 col-md-6">
+						<div class="single-widget">
+							<a class="brand" href="#">
+								<img src="assets/img/tunywelogo.png" alt="footer-logo">
+							</a> 
+							<p>Tunywe is an online based company focused on offering superb customer service and delivery of premium beverages within the Nairobi County.</p> 
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6 col-md-6">
+						<div class="single-widget single-widgets">
+							<h3>Inventory</h3>
+							<ul>
+								<li>
+									<a href="shop.html">Shop</a> 
+								</li>
+								<li>
+									<a href="cart.html">Cart</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6">
+						<div class="single-widget single-widgetss">
+							<h3>Quick Link</h3>
+							<ul>
+								<li>
+									<a href="about.html">About Us</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6">
+						<div class="single-widget">
+							<h3>Address</h3>
+							<ul>
+								<li class="address">
+									<i class="fa fa-map-marker"></i>
+									No. 3, Chaka Court, Argwings Kodhek Road, Nairobi
+								</li>
+								<li class="address">
+									<i class="fa fa-phone"></i>
+									<a href="tel:+25462755">+25462755, 265497466</a>
+								</li>
+								<li class="address">
+									<i class="fa fa-envelope"></i>
+									<a href="mailto:support@tunywedrinks.com">support@tunywedrinks.com</a>
+								</li>
+							</ul>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container footer-bottom">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div>
+							<p>Copyright © Tunywe. All Rights Reserved</p>
+						</div>
+					</div>
+					<!-- <div class="col-lg-6 col-md-6">
+						<ul class="terms-conditions">
+							<li><a href="#">Terms & Conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Top Area -->
+       
+		<!-- Start Go Top Area -->
+		<div class="go-top">
+			<i class="fa fa-angle-double-up"></i>
+			<i class="fa fa-angle-double-up"></i>
+		</div>
+		<!-- End Go Top Area -->
+
+        
+        <!-- Jquery Slim JS -->
+        <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+		<script src="assets/js/jquery.meanmenu.js"></script>
+		<!-- Nice Select JS -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- Wow JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Owl Carousel JS -->
+		<script src="assets/js/owl.carousel.js"></script>
+        <!-- Magnific-Popup JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Custom JS -->
+				<script src="assets/js/custom.js"></script>
+
+				<!-- The core Firebase JS SDK is always required and must be listed first -->
+				<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+				<!-- TODO: Add SDKs for Firebase products that you want to use
+						https://firebase.google.com/docs/web/setup#available-libraries -->
+				<!-- <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+				<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script> -->
+				
+				<script>
+					Vue.component('AddButton', {
+						props: ['id', 'name', 'category', 'description', 'image', 'price', 'added'],
+						template: 
+						`
+						<button v-if="added === true" type="submit" class="default-btn" disabled>
+							<i class="fa fa-cart-plus"></i> 
+							Added
+						</button>
+						<button v-else type="submit" class="default-btn" @click="addBaseFunc(id, name, category, description, image, price)">
+							<i class="fa fa-cart-plus"></i> 
+							Add to Cart
+						</button>
+						`,
+						methods: {
+							addBaseFunc(id, name, category, description, image, price) {
+								this.$root.addToCart(id, name, category, description, image, price);
+							}
+						}
+					});
+
+					/* firebase.initializeApp({
+						apiKey: "AIzaSyCf1fEANGi32APeV6F46BIjb0VgxihovZw",
+						authDomain: "delivery-systems.firebaseapp.com",
+						projectId: "delivery-systems",
+					});
+
+					var db = firebase.firestore(); */
+		
+					const vueApp = new Vue({
+						el: '#vapp',
+						data: {
+							added: false,
+							results: '{}'
+						},
+						beforeMount() {
+							const queryString = window.location.search;
+							const urlParams = new URLSearchParams(queryString);
+							const itemId = urlParams.get('itemId');
+
+							// localStorage.removeItem('cart');
+
+							let cartData = localStorage.getItem('cart');
+							let productDetails = localStorage.getItem('productDetails');
+
+							if(productDetails) {
+								var parsedProductDetails = [];
+								parsedProductDetails = JSON.parse(localStorage.getItem('productDetails'));
+
+								this.results = parsedProductDetails;
+							}
+
+							/* var productArr = [];
+							var productObj = {};
+
+							db.collection("products").doc(itemId).get().then(function(doc) {
+								if (doc.exists) {
+
+										productObj['id'] = doc.data()['bottle id'];
+										productObj['name'] = doc.data()['bottle name'];
+										productObj['category'] = doc.data()['category'];
+										productObj['description'] = doc.data()['description'];
+										productObj['image'] = doc.data()['image'];
+
+										let subCollectionDocs = db.collection("products").doc(doc.data()['bottle id']).collection("prices").get()
+											.then(snapshot => {
+												snapshot.forEach(doc => {
+													productObj['price'] = doc.data()['price'];
+												});
+											}).catch(err => {
+												console.log("Error getting sub-collection documents", err);
+											});
+
+											this.results = productObj;
+
+								} else {
+										// doc.data() will be undefined in this case
+										console.log("No such document!");
+								}
+							}).catch(function(error) {
+									console.log("Error getting document:", error);
+							}); */
+
+							if(cartData) {
+								var parsedCarts = JSON.parse(localStorage.getItem('cart'));
+								var parsedDetails = JSON.parse(localStorage.getItem('productDetails'));
+
+								var index = parsedCarts.findIndex(item => { return item.id == parsedDetails.id });
+
+								if(index !== -1) {
+									this.added = true
+								}
+							}
+						},
+						methods: {
+							addToCart: (id, name, category, description, image, price) => {
+								let cartData = localStorage.getItem('cart');
+
+								if(cartData) {
+									var parsedCarts = JSON.parse(localStorage.getItem('cart'));
+
+									var cartsArr = [];
+									var cartsObj = {};
+
+									let sumTotal = Number(price) * Number(document.getElementById('itemNo').value);
+
+									cartsObj['id'] = id;
+									cartsObj['name'] = name;
+									cartsObj['category'] = category;
+									cartsObj['description'] = description;
+									cartsObj['image'] = image;
+									cartsObj['price'] = price;
+									cartsObj['no'] = document.getElementById('itemNo').value;
+									cartsObj['sumTotal'] = sumTotal;
+									cartsArr.push(cartsObj);
+
+									var newArr = parsedCarts.concat(cartsArr);
+									localStorage.setItem('cart', JSON.stringify(newArr));
+									this.added = true;
+									window.location.reload();
+								}
+								else {
+									var cartsArr = [];
+									var cartsObj = {};
+
+									let sumTotal = Number(price) * Number(document.getElementById('itemNo').value);
+
+									cartsObj['id'] = id;
+									cartsObj['name'] = name;
+									cartsObj['category'] = category;
+									cartsObj['description'] = description;
+									cartsObj['image'] = image;
+									cartsObj['price'] = price;
+									cartsObj['no'] = document.getElementById('itemNo').value;
+									cartsObj['sumTotal'] = sumTotal;
+									cartsArr.push(cartsObj);
+									localStorage.setItem('cart', JSON.stringify(cartsArr));
+									this.added = true;
+									window.location.reload();
+								}
+							}
+						}
+					});
+				</script>
+    </body>
+</html>

@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+        <!-- Bootstrap CSS --> 
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Owl Theme Default CSS --> 
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Owl Carousel CSS --> 
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <!-- Animate CSS --> 
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!-- Flaticon CSS --> 
+		<link rel="stylesheet" href="assets/css/flaticon.css">
+        <!-- Font Awesome CSS --> 
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+		<!-- Nice Select CSS --> 
+		<link rel="stylesheet" href="assets/css/nice-select.css">
+        <!-- Magnific Popup CSS --> 
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+		<link rel="stylesheet" href="assets/css/responsive.css">
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+		<script src="https://unpkg.com/vuex"></script>
+		
+		<!-- Favicon -->
+				<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+				<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- TITLE -->
+        <title>Tunywe - Liquor Store</title>
+    </head>
+
+    <body>
+		<!-- Start Preloader Area -->
+		<div class="preloader">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+        <!-- End Preloader Area -->
+
+        <!-- Start Navbar Area -->
+		<div class="navbar-area fixed-top">
+			<!-- Menu For Mobile Device -->
+			<div class="mobile-nav">
+				<a href="index.html" class="logo">
+					<img src="assets/img/tunywelogo.png" alt="Logo" />
+				</a>
+			</div>
+
+			<!-- Menu For Desktop Device -->
+			<div class="main-nav giano-nav-two">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img src="assets/img/tunywelogo.png" alt="Logo" />
+						</a>
+
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="index.html" class="nav-link">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="shop.html" class="nav-link">Shop</a>
+								</li>
+								<li class="nav-item">
+									<a href="about.html" class="nav-link">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a href="contact.html" class="nav-link">Contact</a>
+								</li>
+								<li class="nav-item contact-number">
+									<a href="tel:+254-789-417" class="nav-link">
+										<i class="fa fa-phone"></i> 
+										+254-789-417
+									</a>
+								</li>
+								<li class="nav-item contact-number">
+									<a href="cart.html" class="nav-link">
+										<i class="fa fa-cart-plus"></i> 
+										Cart
+									</a>
+								</li>
+								<li class="nav-item sidbar-menu">
+									<a href="#" data-toggle="modal" data-target="#myModal2" class="nav-link">
+										<i class="flaticon-menu"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<!-- End Navbar Area -->
+
+		<!-- Start Sidebar Modal -->
+		<div class="sidebar-modal">  
+			<div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">
+									<i class="fa fa-times"></i>
+								</span>
+							</button>
+							<h2 class="modal-title" id="myModalLabel2">
+								<a href="index.html">
+									<img src="assets/img/tunywelogo.png" alt="Logo" />
+								</a>
+							</h2>
+						</div>
+						<div class="modal-body">
+							<div class="sidebar-modal-widget">
+								<h3 class="title">Contact Info</h3>
+								<ul class="contact-info">
+									<li>
+										<i class="fa fa-map-marker"></i>
+										Address
+										<span>No. 3, Chaka Court, Argwings Kodhek Road, Nairobi</span>
+									</li>
+									<li>
+										<i class="fa fa-phone"></i>
+										Email
+										<span>support@tunywedrinks.com</span>
+									</li>
+									<li>
+										<i class="fa fa-envelope"></i>
+										Phone
+										<span>+25462755, 265497466</span>
+									</li>
+								</ul>
+							</div>
+							<div class="sidebar-modal-widget">
+								<h3 class="title">Connect With Us</h3>
+								<ul class="social-list">
+									<li>
+										<a href="https://www.facebook.com/105985017879313">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/tunywedrinks">
+											<i class="fa fa-instagram"></i>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Sidebar Modal -->
+
+		<!-- Start Page Title Area -->
+		<div class="page-title-area item-bg-3">
+			<div class="container">
+				<div class="page-title-content">
+					<h2>Shop</h2>
+					<ul>
+						<li>
+							<a href="index.html">
+								Home 
+								<i class="fa fa-chevron-right"></i>
+							</a>
+						</li>
+						<li>Shop</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- End Page Title Area -->
+		
+		<!-- Start Our Product Area -->
+		<section class="our-products-area ptb-100">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="section-title">
+						<span>Our Products</span>
+						<h2>Featured Beverage Collections</h2>
+						<p>Take a walk through our beverages and make your choice.</p>
+					</div>
+				</div>
+				<div class="row" id="vapp">
+					<div class="col-lg-3 col-sm-6 col-md-4" v-for="(result, index) in results" v-bind:key="index" @click="goToUrl(result)">
+						<div class="single-product single-products">
+							<div class="product-img">
+								<img :src="result.image" alt="Product">
+							</div>
+							<div class="product-details">
+								<!-- <a href="#">Add to Cart</a> -->
+								<h3>{{ result.name }}</h3>
+								<ul>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+									<li>
+										<i class="fa fa-star"></i>
+									</li>
+								</ul>
+								<span>KES {{ result.price }}</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- <div class="col-lg-12">
+						<div class="pagenavigation-area">
+							<nav aria-label="Page navigation example text-center">
+								<ul class="pagination">
+									<li class="page-item" @click="e => goToPrevPage(e)">
+										<a class="page-link page-links" href="#">
+											<i class="flaticon-left-arrow"></i>
+										</a>
+									</li>
+									<li class="page-item" v-bind:class="[currentPage == 1 ? 'active' : '']">
+										<a class="page-link" href="#" @click="e => goToPage(e, '1')">1</a>
+									</li>
+									<li class="page-item" v-bind:class="[currentPage == 2 ? 'active' : '']">
+										<a class="page-link" href="#" @click="e => goToPage(e, '2')">2</a>
+									</li>
+									<li class="page-item" v-bind:class="[currentPage == 3 ? 'active' : '']">
+										<a class="page-link" href="#" @click="e => goToPage(e, '3')">3</a>
+									</li>
+									<li class="page-item">
+										<a class="page-link" href="#" @click="e => goToNextPage(e)">
+											<i class="flaticon-right-arrow"></i>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<!-- End Our Product Area -->
+
+		<!-- Start Footer Top Area -->
+		<footer class="footer-top-area pt-100">
+			<div class="container">
+				<div class="row footer-wrapper">
+					<div class="col-lg-4 col-sm-6 col-md-6">
+						<div class="single-widget">
+							<a class="brand" href="#">
+								<img src="assets/img/tunywelogo.png" alt="Logo" />
+							</a> 
+							<p>Tunywe is an online based company focused on offering superb customer service and delivery of premium beverages within the Nairobi County.</p> 
+						</div>
+					</div>
+					<div class="col-lg-2 col-sm-6 col-md-6">
+						<div class="single-widget single-widgets">
+							<h3>Inventory</h3>
+							<ul>
+								<li>
+									<a href="shop.html">Shop</a> 
+								</li>
+								<li>
+									<a href="cart.html">Cart</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6">
+						<div class="single-widget single-widgetss">
+							<h3>Quick Link</h3>
+							<ul>
+								<li>
+									<a href="about.html">About Us</a>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-md-6">
+						<div class="single-widget">
+							<h3>Address</h3>
+							<ul>
+								<li class="address">
+									<i class="fa fa-map-marker"></i>
+									No. 3, Chaka Court, Argwings Kodhek Road, Nairobi
+								</li>
+								<li class="address">
+									<i class="fa fa-phone"></i>
+									<a href="tel:+25462755">+25462755, 265497466</a>
+								</li>
+								<li class="address">
+									<i class="fa fa-envelope"></i>
+									<a href="mailto:support@tunywedrinks.com">support@tunywedrinks.com</a>
+								</li>
+							</ul>		
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container footer-bottom">
+				<div class="row">
+					<div class="col-lg-6 col-md-6">
+						<div>
+							<p>Copyright © Tunywe. All Rights Reserved</p>
+						</div>
+					</div>
+					<!-- <div class="col-lg-6 col-md-6">
+						<ul class="terms-conditions">
+							<li><a href="#">Terms & Conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer Top Area -->
+       
+		<!-- Start Go Top Area -->
+		<div class="go-top">
+			<i class="fa fa-angle-double-up"></i>
+			<i class="fa fa-angle-double-up"></i>
+		</div>
+		<!-- End Go Top Area -->
+
+        
+        <!-- Jquery Slim JS -->
+        <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+        <!-- Popper JS -->
+        <script src="assets/js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+		<script src="assets/js/jquery.meanmenu.js"></script>
+		<!-- Nice Select JS -->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!-- Wow JS -->
+        <script src="assets/js/wow.min.js"></script>
+        <!-- Owl Carousel JS -->
+		<script src="assets/js/owl.carousel.js"></script>
+        <!-- Magnific-Popup JS -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Custom JS -->
+				<script src="assets/js/custom.js"></script>
+
+				<!-- The core Firebase JS SDK is always required and must be listed first -->
+				<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+				<!-- TODO: Add SDKs for Firebase products that you want to use
+						https://firebase.google.com/docs/web/setup#available-libraries -->
+				<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+				<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+
+				<!-- <script>
+					// Your web app's Firebase configuration
+					var firebaseConfig = {
+						apiKey: "AIzaSyCf1fEANGi32APeV6F46BIjb0VgxihovZw",
+						authDomain: "delivery-systems.firebaseapp.com",
+						databaseURL: "https://delivery-systems.firebaseio.com",
+						projectId: "delivery-systems",
+						storageBucket: "delivery-systems.appspot.com",
+						messagingSenderId: "1043243983905",
+						appId: "1:1043243983905:web:75c135ede21631d45def60",
+						measurementId: "G-XGBXVH07FF"
+					};
+					// Initialize Firebase
+					firebase.initializeApp(firebaseConfig);
+					firebase.analytics();
+				</script> -->
+				
+				<script>
+					/* Vue.component('WineCard', {
+						template: 
+						`
+							<div class="col-lg-3 col-sm-6 col-md-4">
+								<div class="single-product single-products">
+									<div class="product-img">
+										<img src="assets/img/shop/1.png" alt="Product">
+									</div>
+									<div class="product-details">
+										<a href="#">Shop Now</a>
+										<h3>Burgundy</h3>
+										<ul>
+											<li>
+												<i class="fa fa-star"></i>
+											</li>
+											<li>
+												<i class="fa fa-star"></i>
+											</li>
+											<li>
+												<i class="fa fa-star"></i>
+											</li>
+											<li>
+												<i class="fa fa-star"></i>
+											</li>
+											<li>
+												<i class="fa fa-star"></i>
+											</li>
+										</ul>
+										<span>$229.50</span>
+									</div>
+								</div>
+							</div>
+						`,
+						methods: {
+							toggleMe() {
+								this.$root.toggleBox()
+							}
+						}
+					}) */
+
+					/* const firebase = require("firebase");
+					// Required for side-effects
+					require("firebase/firestore"); */
+
+					firebase.initializeApp({
+						apiKey: "AIzaSyCf1fEANGi32APeV6F46BIjb0VgxihovZw",
+						authDomain: "delivery-systems.firebaseapp.com",
+						projectId: "delivery-systems",
+					});
+
+					var db = firebase.firestore();
+		
+					const vueApp = new Vue({
+						el: '#vapp',
+						data: {
+							currentPage: '',
+							results: []
+						},
+						beforeMount() {
+							const queryString = window.location.search;
+							const urlParams = new URLSearchParams(queryString);
+							const pageNo = urlParams.get('page');
+							this.currentPage = pageNo;
+
+							var productCollection = [];
+
+							db.collection("products").get().then((querySnapshot) => {
+								querySnapshot.forEach((doc) => {
+										var productObj = {};
+										productObj['id'] = doc.data()['bottle id'];
+										productObj['name'] = doc.data()['bottle name'];
+										productObj['category'] = doc.data()['category'];
+										productObj['description'] = doc.data()['description'];
+										productObj['image'] = doc.data()['image'];
+
+										let subCollectionDocs = db.collection("products").doc(doc.data()['bottle id']).collection("prices").get()
+											.then(snapshot => {
+												snapshot.forEach(doc => {
+													productObj['price'] = doc.data()['price'];
+													productCollection.push(productObj);
+												});
+											}).catch(err => {
+												console.log("Error getting sub-collection documents", err);
+											});
+										
+								});
+
+								
+
+								this.results = productCollection;
+
+								console.log('######');
+								console.log(productCollection);
+							});
+						},
+						methods: {
+							goToUrl: obj => {
+								localStorage.setItem('productDetails', JSON.stringify(obj));
+								window.location.href = 'shop-details.html?itemId=' + obj.id;
+							},
+							goToPage: (e, page) => {
+								e.preventDefault();
+								window.location.href = "shop.html?page=" + page;
+							},
+							goToNextPage: e => {
+								e.preventDefault();
+								const queryString = window.location.search;
+								const urlParams = new URLSearchParams(queryString);
+								const pageNo = urlParams.get('page');
+
+								window.location.href = "shop.html?page=" + (Number(pageNo) + 1);
+							},
+							goToPrevPage: e => {
+								e.preventDefault();
+								const queryString = window.location.search;
+								const urlParams = new URLSearchParams(queryString);
+								const pageNo = urlParams.get('page');
+
+								window.location.href = "shop.html?page=" + (Number(pageNo) - 1);
+							}
+						}
+					});
+				</script>
+    </body>
+</html>
